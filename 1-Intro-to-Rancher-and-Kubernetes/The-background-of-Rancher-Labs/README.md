@@ -1,0 +1,5 @@
+- Rancher Labs was founded in 2014 with the goal of creating a container management platform that was open source and community-driven.
+- Rancher is the flagship product of Rancher Labs and is used to manage and orchestrate containerized workloads on-premises and in the cloud.
+- Rancher is vendor-neutral, meaning that it can work with different types of hardware and cloud services, making it a flexible and powerful solution for managing containerized applications.
+- In addition to Rancher, Rancher Labs has also released other open source products, such as RancherOS, RKE, K3s, and Longhorn. These products are designed to work seamlessly with Rancher and provide additional functionality for managing containerized workloads.
+- Rancher Labs is committed to the principles of open source software and has made all of its products freely available for anyone to use and modify. This allows the community to contribute to the development of Rancher and its related products, making them even better over time.
