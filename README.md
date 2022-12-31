@@ -335,3 +335,7 @@ This repository is a compilation of my notes and examples from my learning journ
 - Best practices for running applications on a cluster
 - Ongoing maintenance #tasks
 - A summary
+
+## ❤ Show your support
+
+Give a ⭐️ if this project helped you, Happy learning!
