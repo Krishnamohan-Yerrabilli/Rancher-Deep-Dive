@@ -8,3 +8,5 @@ Rancher Labs is a company that provides open source container orchestration soft
 - Docker Swarm was an early cluster orchestration tool that introduced concepts such as defining an application as a group of containers that can be created and destroyed at any time, and using a virtual network to make containers accessible on all nodes in a cluster.
 - Rancher Labs also developed its own Docker cluster software, called Cattle, which aimed to address the limitations of Docker Swarm in areas such as networking, load balancing, and storage.
 - Networking: Cattle improved upon the networking capabilities of Docker Swarm by allowing users to specify their own subnets for each environment, rather than being limited to a class C subnet by default. This added flexibility made it easier for users to manage their networks and avoid conflicts with existing infrastructure.
+- Load balancing: Cattle's use of HAProxy allowed for much more advanced load balancing capabilities, such as session persistence, SSL termination, and connection management. This made it easier for users to deploy complex applications that required these features.
+
