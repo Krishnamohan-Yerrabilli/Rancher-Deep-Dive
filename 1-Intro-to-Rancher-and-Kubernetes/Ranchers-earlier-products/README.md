@@ -6,5 +6,6 @@ Rancher Labs is a company that provides open source container orchestration soft
 - Rancher Labs released its first product, Rancher v1.0, in March 2016.
 - Initially, Rancher only supported Docker Swarm and Rancher Cattle clusters for managing containerized workloads.
 - Docker Swarm was an early cluster orchestration tool that introduced concepts such as defining an application as a group of containers that can be created and destroyed at any time, and using a virtual network to make containers accessible on all nodes in a cluster.
+- Rancher Labs also developed its own Docker cluster software, called Cattle, which aimed to address the limitations of Docker Swarm in areas such as networking, load balancing, and storage.
 
 
