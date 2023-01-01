@@ -4,4 +4,5 @@ Rancher Labs is a company that provides open source container orchestration soft
 
 - Rancher Labs was founded in 2014 in Cupertino, California, by Sheng Liang, Shannon Williams, Darren Shepherd, and Will Chanas.
 - Rancher Labs released its first product, Rancher v1.0, in March 2016.
--
+- Initially, Rancher only supported Docker Swarm and Rancher Cattle clusters for managing containerized workloads.
+
