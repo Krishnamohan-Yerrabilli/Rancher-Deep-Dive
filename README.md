@@ -7,7 +7,7 @@
 
 </div>
 
-Welcome to my repository documenting my learning journey! Inside, you'll find explanations and examples of various concepts that I've encountered on my path to growth and development, all presented in an easy-to-understand manner. I've put a lot of effort into organizing these resources to be as helpful as possible. As I continue learning, I'll be updating this repository with new materials and insights that are easy to follow. If you find these resources helpful and want to use them for your own learning, feel free to fork the repository. If you appreciate the effort I put into making these resources easy to understand, please consider giving it a ⭐ to show your support. Thank you for visiting, and happy learning!
+Welcome to my learning journey repository! You'll find easy-to-understand explanations and examples of various concepts that I've encountered on my path to growth and development. These resources have been organized and presented to be as helpful as possible. As I continue learning, I'll be updating the repository with new materials and insights. Feel free to fork it if you find it helpful. If you appreciate the effort that went into creating these resources, please consider leaving a ⭐. Thank you for visiting, and happy learning guys!
 
 <h1>Quick Start</h1>
 
