@@ -289,6 +289,102 @@ Welcome to my repository documenting my learning journey! Within these resources
   <li>A summary</li>
 </ul>
 
+<h2 id="storage">Storage for a cluster</h2>
+<ul>
+  <li>Understanding the different options for storage for a cluster</li>
+  <li>Requirements and limitations</li>
+  <li>Basic requirements</li>
+  <li>Design limitations and considerations</li>
+  <li>Rules for designing a solution</li>
+  <li>Setting up storage for a cluster</li>
+  <li>Ongoing maintenance tasks</li>
+  <li>A summary</li>
+</ul>
+
+<h2 id="security">Security for a cluster</h2>
+<ul>
+  <li>Understanding the different options for security for a cluster</li>
+  <li>Requirements and limitations</li>
+  <li>Basic requirements</li>
+  <li>Design limitations and considerations</li>
+  <li>Rules for designing a solution</li>
+  <li>Setting up security for a cluster</li>
+  <li>Ongoing maintenance tasks</li>
+  <li>A summary</li>
+</ul>
+
+<h2 id="deploying">Deploying applications to a cluster</h2>
+<ul>
+  <li>Understanding the different options for deploying applications to a cluster</li>
+  <li>Requirements and limitations</li>
+  <li>Basic requirements</li>
+  <li>Design limitations and considerations</li>
+  <li>Rules for designing a solution</li>
+  <li>Deploying applications to a cluster</li>
+  <li>Ongoing maintenance tasks</li>
+  <li>A summary</li>
+</ul>
+
+<h2 id="upgrading">Upgrading applications on a cluster</h2>
+<ul>
+  <li>Understanding the different options for upgrading applications on a cluster</li>
+  <li>Requirements and limitations</li>
+  <li>Basic requirements</li>
+  <li>Design limitations and considerations</li>
+  <li>Rules for designing a solution</li>
+  <li>Upgrading applications on a cluster</li>
+  <li>Ongoing maintenance tasks</li>
+  <li>A summary</li>
+</ul>
+
+<h2 id="migrating">Migrating applications to a cluster</h2>
+<ul>
+  <li>Understanding the different options for migrating applications to a cluster</li>
+  <li>Requirements and limitations</li>
+  <li>Basic requirements</li>
+  <li>Design limitations and considerations</li>
+  <li>Rules for designing a solution</li>
+  <li>Migrating applications to a cluster</li>
+  <li>Ongoing maintenance tasks</li>
+  <li>A summary</li>
+</ul>
+
+<h2 id="monitoring">Monitoring applications on a cluster</h2>
+<ul>
+  <li>Understanding the different options for monitoring applications on a cluster</li>
+  <li>Requirements and limitations</li>
+  <li>Basic requirements</li>
+  <li>Design limitations and considerations</li>
+  <li>Rules for designing a solution</li>
+  <li>Monitoring applications on a cluster</li>
+  <li>Ongoing maintenance tasks</li>
+  <li>A summary</li>
+</ul>
+
+<h2 id="troubleshooting">Troubleshooting applications on a cluster</h2>
+<ul>
+  <li>Understanding the different options for troubleshooting applications on a cluster</li>
+  <li>Requirements and limitations</li>
+  <li>Basic requirements</li>
+  <li>Design limitations and considerations</li>
+  <li>Rules for designing a solution</li>
+  <li>Troubleshooting applications on a cluster</li>
+  <li>Ongoing maintenance tasks</li>
+  <li>A summary</li>
+</ul>
+
+<h2 id="best-practices">Best practices for running applications on a cluster</h2>
+<ul>
+  <li>Understanding the different options for best practices for running applications on a cluster</li>
+  <li>Requirements and limitations</li>
+  <li>Basic requirements</li>
+  <li>Design limitations and considerations</li>
+  <li>Rules for designing a solution</li>
+  <li>Best practices for running applications on a cluster</li>
+  <li>Ongoing maintenance tasks</li>
+  <li>A summary</li>
+</ul>
+
 </div>
 
 ## ❤ Show your support
