@@ -7,7 +7,13 @@
 
 </div>
 
-Welcome to my repository documenting my learning journey! Within these resources, you will find detailed explanations and practical examples of various concepts that I have encountered on my path of growth and development. These resources have been compiled from a variety of sources such as websites, video tutorials, and books, and I have put a great deal of effort into creating and organizing them for your benefit. As I continue on my journey of learning, I will update this repository with new materials and insights. If you find this repository helpful and wish to use its contents for your own purposes, you are welcome to fork it. If you appreciate the time and effort that went into creating this repository, please consider showing your support by leaving a ⭐. Thank you for visiting, and happy learning guys!
+Welcome to my repository documenting my learning journey! Inside, you'll find explanations and examples of various concepts that I've encountered on my path to growth and development, all presented in an easy-to-understand manner. I've put a lot of effort into organizing these resources to be as helpful as possible. As I continue learning, I'll be updating this repository with new materials and insights that are easy to follow. If you find these resources helpful and want to use them for your own learning, feel free to fork the repository. If you appreciate the effort I put into making these resources easy to understand, please consider giving it a ⭐ to show your support. Thank you for visiting, and happy learning!
+
+<h1>Quick Start</h1>
+
+```s
+sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 --privileged rancher/rancher
+```
 
 <div id="top">
 <!-- TABLE OF CONTENTS -->
@@ -15,10 +21,10 @@ Welcome to my repository documenting my learning journey! Within these resources
   <summary>Table of Contents</summary>
   <ol>
   <li>
-<h2 id="an-introduction-to-rancher-and-kubernetes">An introduction to Rancher and Kubernetes</h2>
+<h2 id="an-introduction-to-rancher-and-kubernetes">1. An introduction to Rancher and Kubernetes</h2>
 
 <ul>
-  <li><a href="#">The history of Rancher Labs as a company</a></li>
+  <li>The history of Rancher Labs as a company</li>
   <li>Products released by Rancher in the past</li>
   <li>Rancher's core ideology</li>
   <li>The origin of Kubernetes</li>
@@ -29,7 +35,7 @@ Welcome to my repository documenting my learning journey! Within these resources
   <li>A summary</li>
 </ul>
 
-<h2 id="a-high-level-overview-of-rancher-and-kubernetes">A high-level overview of Rancher and Kubernetes</h2>
+<h2 id="a-high-level-overview-of-rancher-and-kubernetes">2. A high-level overview of Rancher and Kubernetes</h2>
 
 <ul>
   <li>The purpose of the Rancher server</li>
@@ -46,7 +52,7 @@ Welcome to my repository documenting my learning journey! Within these resources
   <li>A summary</li>
 </ul>
 
-<h2 id="setting-up-a-single-node-rancher-instance">Setting up a single-node Rancher instance</h2>
+<h2 id="setting-up-a-single-node-rancher-instance">3. Setting up a single-node Rancher instance</h2>
 
 <ul>
   <li>What a single-node Rancher installation is</li>
@@ -63,7 +69,7 @@ Welcome to my repository documenting my learning journey! Within these resources
   <li>A summary</li>
 </ul>
 
-<h2 id="creating-rke-and-rke2-clusters">Creating RKE and RKE2 clusters</h2>
+<h2 id="creating-rke-and-rke2-clusters">4. Creating RKE and RKE2 clusters</h2>
 
 <ul>
   <li>An explanation of RKE clusters</li>
@@ -88,7 +94,7 @@ Welcome to my repository documenting my learning journey! Within these resources
   <li>A summary</li>
 </ul>
 
-<h2 id="deploying-rancher-on-a-hosted-kubernetes-cluster">Deploying Rancher on a hosted Kubernetes cluster</h2>
+<h2 id="deploying-rancher-on-a-hosted-kubernetes-cluster">5. Deploying Rancher on a hosted Kubernetes cluster</h2>
 
 <ul>
   <li>Understanding hosted Kubernetes clusters</li>
@@ -109,7 +115,7 @@ Welcome to my repository documenting my learning journey! Within these resources
   <li>A summary</li>
 </ul>
 
-<h2 id="creating-an-rke-cluster-using-rancher">Creating an RKE cluster using Rancher</h2>
+<h2 id="creating-an-rke-cluster-using-rancher">6. Creating an RKE cluster using Rancher</h2>
 
 <ul>
   <li>What a Rancher-managed cluster is</li>
@@ -130,7 +136,7 @@ Welcome to my repository documenting my learning journey! Within these resources
   <li>A summary</li>
 </ul>
 
-<h2 id="deploying-a-hosted-cluster-with-rancher">Deploying a hosted cluster with Rancher</h2>
+<h2 id="deploying-a-hosted-cluster-with-rancher">7. Deploying a hosted cluster with Rancher</h2>
 
 <ul>
   <li>How Rancher can manage a hosted cluster</li>
@@ -153,7 +159,7 @@ Welcome to my repository documenting my learning journey! Within these resources
   <li>A summary</li>
 </ul>
 
-<h2 id="importing-an-externally-managed-cluster-into-rancher">Importing an externally managed cluster into Rancher</h2>
+<h2 id="importing-an-externally-managed-cluster-into-rancher">8. Importing an externally managed cluster into Rancher</h2>
 
 <ul>
   <li>What an externally managed cluster is</li>
@@ -166,7 +172,7 @@ Welcome to my repository documenting my learning journey! Within these resources
   <li>A summary</li>
 </ul>
 
-<h2 id="installing-a-kubernetes-cluster-with-rancher-on-aws">Installing a Kubernetes cluster with Rancher on AWS</h2>
+<h2 id="installing-a-kubernetes-cluster-with-rancher-on-aws">9. Installing a Kubernetes cluster with Rancher on AWS</h2>
 
 <ul>
   <li>Understanding the different options for installing a cluster on AWS</li>
@@ -180,7 +186,7 @@ Welcome to my repository documenting my learning journey! Within these resources
   <li>A summary</li>
 </ul>
 
-<h2 id="installing-a-kubernetes-cluster-with-rancher-on-gcp">Installing a Kubernetes cluster with Rancher on GCP</h2>
+<h2 id="installing-a-kubernetes-cluster-with-rancher-on-gcp">10. Installing a Kubernetes cluster with Rancher on GCP</h2>
 
 <ul>
   <li>Understanding the different options for installing a cluster on GCP</li>
@@ -194,7 +200,7 @@ Welcome to my repository documenting my learning journey! Within these resources
   <li>A summary</li>
 </ul>
 
-<h2 id="installing-a-kubernetes-cluster-with-rancher-on-azure">Installing a Kubernetes cluster with Rancher on Azure</h2>
+<h2 id="installing-a-kubernetes-cluster-with-rancher-on-azure">11. Installing a Kubernetes cluster with Rancher on Azure</h2>
 
 <ul>
   <li>Understanding the different options for installing a cluster on Azure</li>
@@ -208,7 +214,7 @@ Welcome to my repository documenting my learning journey! Within these resources
   <li>A summary</li>
 </ul>
 
-<h2 id="upgrading-a-kubernetes-cluster">Upgrading a Kubernetes cluster</h2>
+<h2 id="upgrading-a-kubernetes-cluster">12. Upgrading a Kubernetes cluster</h2>
 
 <ul>
   <li>Understanding the different options for upgrading a cluster</li>
@@ -222,7 +228,7 @@ Welcome to my repository documenting my learning journey! Within these resources
   <li>A summary</li>
 </ul>
 
-<h2 id="backing-up-and-restoring-a-cluster">Backing up and restoring a cluster</h2>
+<h2 id="backing-up-and-restoring-a-cluster">13. Backing up and restoring a cluster</h2>
 
 <ul>
   <li>Understanding the different options for backing up and restoring a cluster</li>
@@ -237,7 +243,7 @@ Welcome to my repository documenting my learning journey! Within these resources
 </ul>
 
 
-<h2 id="scaling-a-cluster">Scaling a cluster</h2>
+<h2 id="scaling-a-cluster">14. Scaling a cluster</h2>
 
 <ul>
   <li>Understanding the different options for scaling a cluster</li>
@@ -250,7 +256,7 @@ Welcome to my repository documenting my learning journey! Within these resources
   <li>A summary</li>
 </ul>
 
-<h2 id="monitoring-a-cluster">Monitoring a cluster</h2>
+<h2 id="monitoring-a-cluster">15. Monitoring a cluster</h2>
 
 <ul>
   <li>Understanding the different options for monitoring a cluster</li>
@@ -263,7 +269,7 @@ Welcome to my repository documenting my learning journey! Within these resources
   <li>A summary</li>
 </ul>
 
-<h2 id="logging-for-a-cluster">Logging for a cluster</h2>
+<h2 id="logging-for-a-cluster">16. Logging for a cluster</h2>
 
 <ul>
   <li>Understanding the different options for logging for a cluster</li>
@@ -276,7 +282,7 @@ Welcome to my repository documenting my learning journey! Within these resources
   <li>A summary</li>
 </ul>
 
-<h2 id="networking-for-a-cluster">Networking for a cluster</h2>
+<h2 id="networking-for-a-cluster">17. Networking for a cluster</h2>
 
 <ul>
   <li>Understanding the different options for networking for a cluster</li>
@@ -289,7 +295,7 @@ Welcome to my repository documenting my learning journey! Within these resources
   <li>A summary</li>
 </ul>
 
-<h2 id="storage">Storage for a cluster</h2>
+<h2 id="storage">18. Storage for a cluster</h2>
 <ul>
   <li>Understanding the different options for storage for a cluster</li>
   <li>Requirements and limitations</li>
@@ -301,7 +307,7 @@ Welcome to my repository documenting my learning journey! Within these resources
   <li>A summary</li>
 </ul>
 
-<h2 id="security">Security for a cluster</h2>
+<h2 id="security">19. Security for a cluster</h2>
 <ul>
   <li>Understanding the different options for security for a cluster</li>
   <li>Requirements and limitations</li>
@@ -313,7 +319,7 @@ Welcome to my repository documenting my learning journey! Within these resources
   <li>A summary</li>
 </ul>
 
-<h2 id="deploying">Deploying applications to a cluster</h2>
+<h2 id="deploying">20. Deploying applications to a cluster</h2>
 <ul>
   <li>Understanding the different options for deploying applications to a cluster</li>
   <li>Requirements and limitations</li>
@@ -325,7 +331,7 @@ Welcome to my repository documenting my learning journey! Within these resources
   <li>A summary</li>
 </ul>
 
-<h2 id="upgrading">Upgrading applications on a cluster</h2>
+<h2 id="upgrading">21. Upgrading applications on a cluster</h2>
 <ul>
   <li>Understanding the different options for upgrading applications on a cluster</li>
   <li>Requirements and limitations</li>
@@ -337,7 +343,7 @@ Welcome to my repository documenting my learning journey! Within these resources
   <li>A summary</li>
 </ul>
 
-<h2 id="migrating">Migrating applications to a cluster</h2>
+<h2 id="migrating">22. Migrating applications to a cluster</h2>
 <ul>
   <li>Understanding the different options for migrating applications to a cluster</li>
   <li>Requirements and limitations</li>
@@ -349,7 +355,7 @@ Welcome to my repository documenting my learning journey! Within these resources
   <li>A summary</li>
 </ul>
 
-<h2 id="monitoring">Monitoring applications on a cluster</h2>
+<h2 id="monitoring">23. Monitoring applications on a cluster</h2>
 <ul>
   <li>Understanding the different options for monitoring applications on a cluster</li>
   <li>Requirements and limitations</li>
@@ -361,7 +367,7 @@ Welcome to my repository documenting my learning journey! Within these resources
   <li>A summary</li>
 </ul>
 
-<h2 id="troubleshooting">Troubleshooting applications on a cluster</h2>
+<h2 id="troubleshooting">24. Troubleshooting applications on a cluster</h2>
 <ul>
   <li>Understanding the different options for troubleshooting applications on a cluster</li>
   <li>Requirements and limitations</li>
@@ -373,7 +379,7 @@ Welcome to my repository documenting my learning journey! Within these resources
   <li>A summary</li>
 </ul>
 
-<h2 id="best-practices">Best practices for running applications on a cluster</h2>
+<h2 id="best-practices">25. Best practices for running applications on a cluster</h2>
 <ul>
   <li>Understanding the different options for best practices for running applications on a cluster</li>
   <li>Requirements and limitations</li>
@@ -387,6 +393,84 @@ Welcome to my repository documenting my learning journey! Within these resources
 
 </div>
 
+<h1>Installing Rancher on DigitalOcean</h1>
+
+<h3>Step 1: Create a new Droplet on DigitalOcean</h3>
+<p>Select the operating system of your choice, but make sure it is compatible with Rancher.</p>
+
+<h3>Step 2: SSH into your Droplet</h3>
+
+<h3>Step 3: Install Docker</h3>
+
+```s
+sudo apt-get update && sudo apt-get install docker.io
+```
+
+<h3>Step 4: Start the Docker daemon</h3>
+
+```s
+sudo systemctl start docker
+```
+
+<h3>Step 5: Verify that Docker is running</h3>
+
+```s
+sudo docker run hello-world
+```
+
+<h3>Step 6: Run the Rancher server</h3>
+
+```s
+sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 rancher/rancher</pre>
+```
+
+<h3>Step 7: Open the Rancher login page in a web browser</h3>
+<p>Go to the IP address of your Droplet. You should see the Rancher login page.</p>
+
+<h3>Step 8: Complete the installation and set up your Rancher server</h3>
+<p>Follow the prompts to complete the installation and set up your Rancher server.</p>
+
+##   
+  
+<h1>Installing Rancher on Google Cloud Platform</h1>
+
+<h3>Step 1: Create a new GCP project</h3>
+
+<h3>Step 2: Create a new Compute Engine instance</h3>
+<p>Select the operating system of your choice, but make sure it is compatible with Rancher.</p>
+
+<h3>Step 3: SSH into your Compute Engine instance</h3>
+
+<h3>Step 4: Install Docker</h3>
+  
+```s
+sudo apt-get update && sudo apt-get install docker.io
+```
+
+<h3>Step 5: Start the Docker daemon</h3>
+
+```s
+  sudo systemctl start docker
+```
+
+<h3>Step 6: Verify that Docker is running</h3>
+
+```s
+sudo docker run hello-world
+```
+
+<h3>Step 7: Run the Rancher server</h3>
+
+```s
+  sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 rancher/rancher
+```
+
+<h3>Step 8: Open the Rancher login page in a web browser</h3>
+<p>Go to the IP address of your Compute Engine instance. You should see the Rancher login page.</p>
+
+<h3>Step 9: Complete the installation and set up your Rancher server</h3>
+<p>Follow the prompts to complete the installation and set up your Rancher server.</p>  
+ 
 ## ❤ Show your support
 
 Give a ⭐️ if this project helped you, Happy learning!
