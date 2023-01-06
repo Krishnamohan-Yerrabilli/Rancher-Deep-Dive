@@ -21,19 +21,18 @@ sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 --privileged ran
   <summary>Table of Contents</summary>
   <ol>
   
-## [An introduction to Rancher and Kubernetes](https://github.com/Krishnamohan-Yerrabilli/Rancher-Deep-Dive/tree/main/1-Intro-to-Rancher-and-Kubernetes#introduction-to-rancher-and-kubernetes)
-
-<ul>
-  [The history of Rancher Labs as a company](https://github.com/Krishnamohan-Yerrabilli/Rancher-Deep-Dive/tree/main/1-Intro-to-Rancher-and-Kubernetes#the-background-of-rancher-labs)<br>
-  [Products released by Rancher in the past](https://github.com/Krishnamohan-Yerrabilli/Rancher-Deep-Dive/tree/main/1-Intro-to-Rancher-and-Kubernetes#ranchers-earlier-products)<br>
-  [Rancher's core ideology](https://github.com/Krishnamohan-Yerrabilli/Rancher-Deep-Dive/tree/main/1-Intro-to-Rancher-and-Kubernetes#ranchers-main-philosophy)<br>
-  [The origin of Kubernetes](https://github.com/Krishnamohan-Yerrabilli/Rancher-Deep-Dive/tree/main/1-Intro-to-Rancher-and-Kubernetes#the-origins-of-kubernetes)<br>
-  <li>The issue that Kubernetes aims to address</li>
-  <li>Comparing Kubernetes to Docker Swarm and OpenShift</li>
-  <li>A comparison of Kubernetes and Docker Swarm</li>
-  <li>A comparison of Kubernetes and OpenShift</li>
-  <li>A summary</li>
-</ul>
+## An introduction to Rancher and Kubernetes
+  
+ - [The history of Rancher Labs as a company](https://github.com/Krishnamohan-Yerrabilli/Rancher-Deep-Dive/tree/main/1-Intro-to-Rancher-and-Kubernetes#the-background-of-rancher-labs)<br>
+ - [Products released by Rancher in the past](https://github.com/Krishnamohan-Yerrabilli/Rancher-Deep-Dive/tree/main/1-Intro-to-Rancher-and-Kubernetes#ranchers-earlier-products)<br>
+ - [Rancher's core ideology](https://github.com/Krishnamohan-Yerrabilli/Rancher-Deep-Dive/tree/main/1-Intro-to-Rancher-and-Kubernetes#ranchers-main-philosophy)<br>
+ - [The origin of Kubernetes](https://github.com/Krishnamohan-Yerrabilli/Rancher-Deep-Dive/tree/main/1-Intro-to-Rancher-and-Kubernetes#the-origins-of-kubernetes)<br>
+  
+ -  The issue that Kubernetes aims to address <br>
+ -  Comparing Kubernetes to Docker Swarm and OpenShift <br>
+ -  A comparison of Kubernetes and Docker Swarm <br>
+ -  A comparison of Kubernetes and OpenShift <br>
+ -  A summary <br>
 
 <h2 id="a-high-level-overview-of-rancher-and-kubernetes">2. A high-level overview of Rancher and Kubernetes</h2>
 
