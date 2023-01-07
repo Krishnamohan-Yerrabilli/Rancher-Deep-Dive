@@ -27,7 +27,6 @@ sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 --privileged ran
  - [Products released by Rancher in the past](https://github.com/Krishnamohan-Yerrabilli/Rancher-Deep-Dive/tree/main/1-Intro-to-Rancher-and-Kubernetes#ranchers-earlier-products)<br>
  - [Rancher's core ideology](https://github.com/Krishnamohan-Yerrabilli/Rancher-Deep-Dive/tree/main/1-Intro-to-Rancher-and-Kubernetes#ranchers-main-philosophy)<br>
  - [The origin of Kubernetes](https://github.com/Krishnamohan-Yerrabilli/Rancher-Deep-Dive/tree/main/1-Intro-to-Rancher-and-Kubernetes#the-origins-of-kubernetes)<br>
-  
  -  The issue that Kubernetes aims to address <br>
  -  Comparing Kubernetes to Docker Swarm and OpenShift <br>
  -  A comparison of Kubernetes and Docker Swarm <br>
@@ -289,7 +288,7 @@ sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 --privileged ran
   <li>Basic requirements</li>
   <li>Design limitations and considerations</li>
   <li>Rules for designing a solution</li>
-  <li>Setting up networking for a cluster</li>
+  <li>Networking setup for a cluster</li>
   <li>Ongoing maintenance tasks</li>
   <li>A summary</li>
 </ul>
