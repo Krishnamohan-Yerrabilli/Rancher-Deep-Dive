@@ -126,7 +126,7 @@ sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 --privileged ran
   <li>Rules for designing a solution</li>
   <li>Setting up an RKE cluster on AWS</li>
   <li>Setting up an RKE cluster on GCP</li>
-  <li>Preparing for nodes to join Rancher</li>
+  <li>Preparing for nodes to join Rancher(cohesive)</li>
   <li>Preparing the infrastructure provider</li>
   <li>Steps for creating an RKE cluster using Rancher</li>
   <li>Deploying a cluster using node pools</li>
