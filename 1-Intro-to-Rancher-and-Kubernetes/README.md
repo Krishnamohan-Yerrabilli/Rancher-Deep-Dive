@@ -53,3 +53,6 @@ Rancher Labs' flagship product is `Rancher`, which is a management and orchestra
 
 # The problem that Kubernetes is trying to solve
 
+- Kubernetes is an `open-source` platform for managing `containerized` applications at scale.
+- The problem Kubernetes solves is the difficulty of managing and scaling `containerized` applications in a `distributed` environment.
+- Containers, such as `Docker`, make it easy to package an application and its dependencies together, but managing and scaling `multiple containers` across multiple machines can be challenging.
