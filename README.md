@@ -419,7 +419,7 @@ sudo docker run hello-world
 <h3>Step 6: Run the Rancher server</h3>
 
 ```s
-sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 rancher/rancher</pre>
+sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 rancher/rancher
 ```
 
 <h3>Step 7: Open the Rancher login page in a web browser</h3>
