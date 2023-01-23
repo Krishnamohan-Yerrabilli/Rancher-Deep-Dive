@@ -66,8 +66,10 @@ Rancher Labs' flagship product is `Rancher`, which is a management and orchestra
 
 - OpenShift is a `container application` platform that is built on top of `Kubernetes`. It provides `additional features` such as built-in CI/CD, security, and `monitoring`. OpenShift is intended for `enterprise` use-cases and is often used in `production environments`.
 
-- Kubernetes is a powerful and feature-rich container orchestration system that is widely used in production environments. 
+In conclusion
 
-- Docker Swarm is simpler and more lightweight, making it a good choice for development and testing environments. 
+- Kubernetes is a powerful and feature-rich `container orchestration` system that is widely used in `production environments`. 
 
-- OpenShift is built on top of Kubernetes and adds enterprise features, making it a good choice for production environments.
+- Docker Swarm is simpler and more `lightweigh`t, making it a good choice for development and `testing environments`. 
+
+- OpenShift is `built on top of Kubernetes` and adds enterprise features, making it a good choice for `production environments`.
