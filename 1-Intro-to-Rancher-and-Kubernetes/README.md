@@ -60,4 +60,6 @@ Rancher Labs' flagship product is `Rancher`, which is a management and orchestra
 
 # Comparing Kubernetes to Docker Swarm and OpenShift
 
-Kubernetes is an open-source `container orchestration` system that can be used to automate the `deployment`, `scaling`, and `management of containerized applications`. It is considered to be the most `feature-rich` and mature of the three options and is widely used in production environments.
+- Kubernetes is an open-source `container orchestration` system that can be used to automate the `deployment`, `scaling`, and `management of containerized applications`. It is considered to be the most `feature-rich` and mature of the three options and is widely used in production  environments.
+
+- Docker Swarm is a `native` clustering and `orchestration` solution for Docker containers. It is simpler to set up and use than `Kubernetes`, but it also has fewer features. It is often used in `development` and `testing environments`, or in cases where a simpler orchestration solution is needed.
