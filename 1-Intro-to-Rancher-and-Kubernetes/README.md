@@ -86,3 +86,11 @@ Security:
 - Kubernetes had built-in tool `Pod Security Policies (PSPs)` for pod-level security, but it was deprecated in v1.21 due to limitations
 - PSPs are being replaced by third-party tool `OPA Gatekeeper`
 - OpenShift has a stricter security mindset and has the option to be secure as default
+
+In conclusion
+
+- Kubernetes is a powerful and feature-rich `container orchestration` system that is widely used in `production environments`. 
+
+- Docker Swarm is simpler and more `lightweigh`t, making it a good choice for development and `testing environments`. 
+
+- OpenShift is `built on top of Kubernetes` and adds enterprise features, making it a good choice for `production environments`.
