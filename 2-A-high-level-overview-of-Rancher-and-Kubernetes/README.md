@@ -13,4 +13,17 @@ architecture of `K8s`, including `kube-api-server`, `kube-controller-manager`, a
 components maintains the state of the cluster. Finally, we'll examine how an end user can change the desired state and how the controllers 
 can update the current state.
 
+# In this section, we'll discuss:
 
+- The purpose of the `Rancher server`
+- What `RKE` and `RKE2` are
+- An explanation of `RKE`
+- An explanation of `RKE2`
+- What `K3s` is
+- The role of `RancherD`
+- The controllers running inside `Rancher server` pods
+- The function of `Cattle agents`
+- How `Rancher` manages nodes and clusters
+- An overview of `kube-apiserver`, `kube-controller-manager`, `kube-scheduler`, `etcd`, and `kubelet`
+- How the `current state` and `desired state` work together
+- A summary
