@@ -94,3 +94,5 @@ Security:
 - Docker Swarm is simpler and more `lightweigh`t, making it a good choice for development and `testing environments`. 
 
 - OpenShift is `built on top of Kubernetes` and adds enterprise features, making it a good choice for `production environments`.
+
+
