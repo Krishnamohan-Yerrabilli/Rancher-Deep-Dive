@@ -64,12 +64,17 @@ Rancher Labs' flagship product is `Rancher`, which is a management and orchestra
 
 - Docker Swarm is a `native` clustering and `orchestration` solution for Docker containers. It is simpler to set up and use than `Kubernetes`, but it also has fewer features. It is often used in `development` and `testing environments`, or in cases where a simpler orchestration solution is needed.
 
-- OpenShift is a `container application` platform that is built on top of `Kubernetes`. It provides `additional features` such as built-in CI/CD, security, and `monitoring`. OpenShift is intended for `enterprise` use-cases and is often used in `production environments`.
+# Kubernetes vs OpenShift
 
-In conclusion
+Features and Architecture:
 
-- Kubernetes is a powerful and feature-rich `container orchestration` system that is widely used in `production environments`. 
+- Both Kubernetes and OpenShift follow the same core design practices
+- They differ in terms of execution
 
-- Docker Swarm is simpler and more `lightweigh`t, making it a good choice for development and `testing environments`. 
+Networking:
 
-- OpenShift is `built on top of Kubernetes` and adds enterprise features, making it a good choice for `production environments`.
+- Kubernetes lacks built-in networking solution, relies on third-party plug-ins (canal, flannel, Weave)
+- OpenShift provides built-in network solution called `Open vSwitch`, a VXLAN-based software-defined network stack
+
+
+
