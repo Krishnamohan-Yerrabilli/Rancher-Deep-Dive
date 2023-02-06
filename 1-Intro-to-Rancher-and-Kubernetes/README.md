@@ -87,7 +87,7 @@ Security:
 - PSPs are being replaced by third-party tool `OPA Gatekeeper`
 - OpenShift has a stricter security mindset and has the option to be secure as default
 
-# In conclusion
+# In conclusion 
 
 - Kubernetes is a powerful and feature-rich `container orchestration` system that is widely used in `production environments`. 
 
