@@ -81,4 +81,8 @@ Application Deployment:
 - Kubernetes approach is to be as flexible as possible, allowing any Linux distribution and supporting Windows images
 - OpenShift standardizes the stack on RedHat products (RHEL) and puts limits on container images
 
+Security:
 
+- Kubernetes had built-in tool `Pod Security Policies (PSPs)` for pod-level security, but it was deprecated in v1.21 due to limitations
+- PSPs are being replaced by third-party tool `OPA Gatekeeper`
+- OpenShift has a stricter security mindset and has the option to be secure as default
