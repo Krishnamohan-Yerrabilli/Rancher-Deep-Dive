@@ -29,9 +29,9 @@ sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 --privileged ran
  - [The origin of Kubernetes](https://github.com/Krishnamohan-Yerrabilli/Rancher-Deep-Dive/tree/main/1-Intro-to-Rancher-and-Kubernetes#the-origins-of-kubernetes)<br>
  - [The issue that Kubernetes aims to address](https://github.com/Krishnamohan-Yerrabilli/Rancher-Deep-Dive/tree/main/1-Intro-to-Rancher-and-Kubernetes#the-problem-that-kubernetes-is-trying-to-solve) <br>
  - [Comparing Kubernetes to Docker Swarm and OpenShift](https://github.com/Krishnamohan-Yerrabilli/Rancher-Deep-Dive/tree/main/1-Intro-to-Rancher-and-Kubernetes#comparing-kubernetes-to-docker-swarm-and-openshift)<br>
- - A comparison of Kubernetes and Docker Swarm <br>
- - A comparison of Kubernetes and OpenShift <br>
- - A summary <br>
+ - [A comparison of Kubernetes and Docker Swarm](https://github.com/Krishnamohan-Yerrabilli/Rancher-Deep-Dive/tree/main/1-Intro-to-Rancher-and-Kubernetes#comparing-kubernetes-to-docker-swarm-and-openshift) <br>
+ - [A comparison of Kubernetes and OpenShift](https://github.com/Krishnamohan-Yerrabilli/Rancher-Deep-Dive/tree/main/1-Intro-to-Rancher-and-Kubernetes#kubernetes-vs-openshift) <br>
+ - [A summary](https://github.com/Krishnamohan-Yerrabilli/Rancher-Deep-Dive/blob/main/1-Intro-to-Rancher-and-Kubernetes/README.md#in-conclusion) <br>
 
 <h2 id="a-high-level-overview-of-rancher-and-kubernetes">2. A high-level overview of Rancher and Kubernetes</h2>
 
