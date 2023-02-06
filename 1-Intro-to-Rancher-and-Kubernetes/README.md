@@ -76,5 +76,9 @@ Networking:
 - Kubernetes lacks built-in networking solution, relies on third-party plug-ins (canal, flannel, Weave)
 - OpenShift provides built-in network solution called `Open vSwitch`, a VXLAN-based software-defined network stack
 
+Application Deployment:
+
+- Kubernetes approach is to be as flexible as possible, allowing any Linux distribution and supporting Windows images
+- OpenShift standardizes the stack on RedHat products (RHEL) and puts limits on container images
 
 
