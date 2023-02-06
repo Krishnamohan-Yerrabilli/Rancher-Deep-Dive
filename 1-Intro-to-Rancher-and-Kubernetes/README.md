@@ -4,12 +4,12 @@ Hey guys, in this section we're going to focus on the `history` of `Rancher` and
 
 ## In this section, we'll discuss:
 
-- The `background` of `Rancher Labs`
-- Rancher's earlier products
-- Rancher's main `philosophy`
-- The `origins` of `Kubernetes`
-- The problem that `Kubernetes` is trying to solve
-- How `Kubernetes` compares to `Docker Swarm` and `OpenShift`
+- The `background` of `Rancher Labs`?
+- Rancher's earlier products?
+- Rancher's main `philosophy`?
+- The `origins` of `Kubernetes`?
+- The problem that `Kubernetes` is trying to solve?
+- How `Kubernetes` compares to `Docker Swarm` and `OpenShift`?
 
 
 #  The background of Rancher Labs
