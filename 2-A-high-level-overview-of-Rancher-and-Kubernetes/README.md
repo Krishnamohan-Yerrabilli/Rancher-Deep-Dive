@@ -34,6 +34,18 @@ The `Rancher server` is considered the core of the Rancher ecosystem and contain
 
 The central component of Rancher is the `Rancher API`, which is built on a custom API framework called `Norman`. This framework acts as a translation layer between the Rancher API and the `K8s API`. All communication in Rancher, including the `Rancher UI` which is 100% API-driven, utilizes the Rancher or K8s API.
 
+Accessing the `Rancher API` is possible through a standard RESTful API. Requests are sent from an external HTTP or TCP load balancer to the ingress controller, then routed to one of the Rancher server pods. `Norman` translates the request into a K8s request, which calls a `CustomResource` object. Since everything is stored in a `CustomResource` object in K8s, the Rancher request flow is stateless and does not require session persistence. 
+
+When a `CustomResource` object is created, changed, or deleted, the corresponding object type's controller takes over and processes the request. This topic will be explored in further detail later in this section.
+
+# RKE and RKE2 are solutions for building a Kubernetes (K8s) cluster. 
+
+The traditional process of building a K8s cluster, known as "K8s the hard way," can be complicated and change over time. It involves generating a root CA key, configuring etcd, installing kube-apiserver, kube-controller-manager, and kubescheduler, and joining worker nodes to the cluster. 
+
+Rancher aimed to make building K8s clusters easier through its container clustering software, Cattle, in Rancher v1.6. Everything needed to run as a container.
+
+
+
 
 
 
