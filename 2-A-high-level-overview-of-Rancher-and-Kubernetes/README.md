@@ -28,12 +28,12 @@ can update the current state.
 - How the `current state` and `desired state` work together
 - A summary
 
-"What is the Rancher server?"
+# What is the Rancher server?
 
 The `Rancher server` is considered the core of the Rancher ecosystem and contains all necessary components, products, or tools that connect to it via the `Rancher API`. The term "Rancher" is often used interchangeably with the "Rancher server". 
 
 The central component of Rancher is the `Rancher API`, which is built on a custom API framework called `Norman`. This framework acts as a translation layer between the Rancher API and the `K8s API`. All communication in Rancher, including the `Rancher UI` which is 100% API-driven, utilizes the Rancher or K8s API.
 
-Accessing the `Rancher API` is possible through a standard RESTful API. Requests are sent from an external HTTP or TCP load balancer to the ingress controller, then routed to one of the Rancher server pods. `Norman` translates the request into a K8s request, which calls a `CustomResource` object. Since everything is stored in a `CustomResource` object in K8s, the Rancher request flow is stateless and does not require session persistence. 
 
-When a `CustomResource` object is created, changed, or deleted, the corresponding object type's controller takes over and processes the request. This topic will be explored in further detail later in this section.
+
+
