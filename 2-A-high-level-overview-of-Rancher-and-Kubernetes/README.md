@@ -83,8 +83,11 @@ services:
           - 172.27.2.24
 ```
 
+Summary:
 
-
+- RKE is Rancher's cluster orchestration tool for creating and managing K8s clusters.
+- The core concept of RKE is that everything in the K8s cluster runs within Docker containers, allowing it to run on any operating system.
+- RKE uses a configuration file `cluster.yml` to create containers for the components of the K8s cluster (etcd, kube-apiserver, kube-controller-manager, kube-scheduler, and kubelet).
 
 
 
