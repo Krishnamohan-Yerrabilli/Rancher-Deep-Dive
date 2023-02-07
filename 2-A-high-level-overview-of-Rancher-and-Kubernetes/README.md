@@ -44,6 +44,45 @@ The traditional process of building a K8s cluster, known as "K8s the hard way," 
 
 Rancher aimed to make building K8s clusters easier through its container clustering software, Cattle, in Rancher v1.6. Everything needed to run as a container.
 
+So guys to explain in simple terms "RKE" is Rancher's cluster 'orchestration' basically its a command line tool for creating and managing Cloud Native Computing Foundation (CNCF)-certified K8s clusters with various operating systems and configurations. The core idea of RKE is that everything that makes up the K8s cluster should run inside Docker containers. This allows RKE to be deployed on any 'operating system' as long as it's within a 'Docker container', as RKE does not install binaries on the host or configure services on the 'host system'.
+
+```s
+user: root
+hostname_override: host_01
+internal address: 172.27.7.21
+role: [controlplane, worker, etcd]
+address: 172.27.7.22
+
+user: root
+hostname_override: host_02
+internal_address: 172.27.7.22
+role: [controlplane, worker,etcd]
+address: 172.27.7.23
+
+user: root
+hostname_override: host_03
+internal_address: 172.27.7.23
+role: [controlplane, worker, etcd]
+
+services:
+  etcd:
+    dns:
+      backup_config:
+        enabled: true
+        interval_hours: 12
+        retention: 6
+        access_key: "ABCDEFGHIJKLMNPO..."
+        secret_key: "123456789abcdefghijklmpo....
+        bucket_name: "etcd-backups"
+        folder: "Cluster-Name-Here"
+        endpoint: "s3.us-west-1.mohan.com"
+        region: "us-west-1"
+        provider: coredns.
+        upstreamnameservers:
+          - 172.27.2.23
+          - 172.27.2.24
+```
+
 
 
 
