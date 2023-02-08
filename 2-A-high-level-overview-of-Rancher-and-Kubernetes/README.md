@@ -98,11 +98,10 @@ It has inherited several features from `K3s`, including self-bootstrapping, buil
 
 RKE2 also offers built-in `Helm` support, which was designed with Rancher's fleet feature in mind, where all `cluster services` should be deployed in an automated process using `Helm`. The significant change from `RKE` to RKE2 was the move from `Docker` to `containerd`, which allows the `core Kubernetes components`, such as `etcd` and `kube-apiserver`, to be managed as `static pods` directly by `kubelet` instead of `kube-controller-manager` or `kube-scheduler`. This means that the core components can be viewed and managed just like any other `pod` in the cluster.
 
+# What `K3s` is?
 
+K3s is a fully CNCF-certified `K8s` distribution, designed to run on edge devices where physical space, power, and compute resources are limited. K3s was created as a smaller alternative to traditional `K8s` clusters, which require significant resources to run. 
 
+The core components of K3s, including `kube-apiserver`, `kube-controller-manager`, `kube-scheduler`, and `kubelet`, are merged into a single binary, reducing the overall size and memory footprint of the cluster. `Etcd` is replaced with a database adapter such as SQLite3, which functions as an etcd database but with a smaller CPU and memory usage. 
 
-
-
-
-
-
+K3s also eliminates the in-tree storage drivers and cloud providers found in upstream K8s, reducing the overhead and allowing the cluster to fit on a 40 MB binary file and run on a node with only 512 MB of RAM. The optimizations in K3s allow it to stay up to date with upstream K8s without customizing any of the standard K8s libraries in the core components.
