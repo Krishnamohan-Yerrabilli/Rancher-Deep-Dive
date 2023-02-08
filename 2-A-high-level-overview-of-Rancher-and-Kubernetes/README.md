@@ -88,6 +88,16 @@ services:
 - The core concept of RKE is that everything in the K8s cluster runs within Docker containers, allowing it to run on any operating system.
 - RKE uses a configuration file `cluster.yml` to create containers for the components of the K8s cluster (etcd, kube-apiserver, kube-controller-manager, kube-scheduler, and kubelet).
 
+# Explanation of RKE2
+
+RKE2 is Rancher's next-generation `Kubernetes` solution, also known as RKE Government. It was specifically designed to meet the unique requirements of the US federal government and its customers. With RKE2, security is a top priority and is built into the solution by default, making it highly secure with little to no action required by the cluster administrator.
+
+RKE2 is a fully `CNCF`-certified Kubernetes distribution and is built on `K3s`, which brings in the easy setup methods from `K3s` and supports `ARM64`-based systems. This means that RKE2 can be set up on a `Raspberry Pi` or mixed and matched with `AMD64` nodes in the same cluster, providing users with the flexibility to run workloads on low-power and cost-effective `ARM64` nodes. Additionally, RKE2 inherits several features from `K3s`, such as support for multiple arch builds using the `Drone Continuous Integration` (CI) platform.
+
+It has inherited several features from `K3s`, including self-bootstrapping, built-in `Helm` support, and the move from `Docker` to `containerd`. With the self-bootstrapping feature, RKE2 allows nodes to join the cluster using a `registration endpoint` running on the `master nodes`, eliminating the need to define the cluster as `YAML` and use the `RKE binary`. This feature requires an external `load balancer` or a `round-robin DNS` record to be successful.
+
+RKE2 also offers built-in `Helm` support, which was designed with Rancher's fleet feature in mind, where all `cluster services` should be deployed in an automated process using `Helm`. The significant change from `RKE` to RKE2 was the move from `Docker` to `containerd`, which allows the `core Kubernetes components`, such as `etcd` and `kube-apiserver`, to be managed as `static pods` directly by `kubelet` instead of `kube-controller-manager` or `kube-scheduler`. This means that the core components can be viewed and managed just like any other `pod` in the cluster.
+
 
 
 
