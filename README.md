@@ -472,3 +472,53 @@ sudo docker run hello-world
 ## ❤ Show your support
 
 Give a ⭐️ if this project helped you, Happy learning!
+
+
+I hope you are doing well. I have some questions about the BUMP system and how it works. Specifically, I am trying to understand:
+
+1. How does the system automatically BUMP up (increase) or BUMP down (decrease) coverage on certain policies or pages?
+
+For example, what triggers these automatic adjustments, and are there specific rules or criteria that the system follows?
+
+
+
+2. If a BUMP happens, how do we determine the appropriate date or action needed for processing these changes?
+
+
+3. Could you explain or share an example of how we should handle situations where coverage is BUMPED up or down, and how it reflects in the system?
+
+
+
+Your guidance would be really helpful in clearing up my confusion and ensuring I handle these scenarios properly. Thank you so much for your time and support!
+
+Best regards,
+[Your Full Name]
+
+
+---
+
+Tips for Asking in Person or Live:
+
+1. Start with Context:
+"Hi Anne-Marie, I have some doubts about the BUMP system, and I was hoping you could help me understand how it works."
+
+
+2. Ask Specific Questions:
+
+"How does the system decide to automatically BUMP coverage up or down?"
+
+"Are there any rules or triggers we need to check when handling these adjustments?"
+
+"When a BUMP happens, how do we decide what date or action to take?"
+
+
+
+3. Request Examples or Clarity:
+
+"Could you provide an example of how to process a policy that has been BUMPED up or down in the system?"
+
+
+
+4. Show Gratitude:
+
+"Thank you so much for your help in explaining this process. I really appreciate your guidance!"
