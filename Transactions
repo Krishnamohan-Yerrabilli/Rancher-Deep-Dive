@@ -1,17 +1,18 @@
 Scenario 1
 
-Latest Transaction: 2nd month 3rd date year 2024
+Latest Transaction: 2nd month, 3rd date, 2024
 
-Date Received: 2nd month 8th date year 2024
+Date Received: 2nd month, 8th date, 2024
 
 
 Action:
+Since the date received (2nd month, 8th date) is after the latest transaction (2nd month, 3rd date), we can process the request straight away.
 
-Since the date received (2nd month 8th date) is after the latest transaction (2nd month 3rd date), you can process the request without checking the Term Activity.
+No need to check Term Activity for this scenario.
 
-The request can be processed directly on the effective date (2nd month 8th date 2024).
+Just process the request on the effective date (2nd month, 8th date, 2024).
 
-There is NO need to forward the request to Block-in Rating (BIR).
+No need to send this to BIR (Block-in Rating).
 
 
 
@@ -19,26 +20,21 @@ There is NO need to forward the request to Block-in Rating (BIR).
 
 Scenario 2
 
-Latest Transaction: 2nd month 3rd day 2024
+Latest Transaction: 2nd month, 3rd day, 2024
 
-Date Received: 2nd month 3rd day 2024 (same date)
+Date Received: 2nd month, 3rd day, 2024 (same date)
 
 
 Action:
 
-1. Check the Term Activity to verify the Rating Status:
+1. Check the Term Activity to confirm the Rating Status:
 
-If the Rating Status is RERATE:
+If the Rating Status is RERATE, open the Billing Tab.
 
-Open the Billing Tab.
-
-If the Billing Tab opens, you can key the change on the same date.
+If the Billing Tab opens, go ahead and key the change on the same date.
 
 
-If the Rating Status is NO RERATE:
-
-You can proceed with the transaction without checking the Billing Tab.
-
+If the Rating Status is NO RERATE, skip the Billing Tab and directly process the request.
 
 
 
@@ -55,20 +51,20 @@ Date Received: 1st February 2024
 
 Action:
 
-1. Go to the Term Activity and check the Rating Status for the 2nd February transaction:
+1. Look at the Term Activity and check the Rating Status for 2nd February:
 
-If the Rating Status is RERATE, forward the request directly to the Block-in Rating (BIR) Team.
+If 2nd February is RERATE, send the request straight to the BIR team.
 
-If the Rating Status is NO RERATE, then check the 1st February transaction:
+If 2nd February is NO RERATE, then check the 1st February transaction:
 
-If the 1st February transaction is RERATE, open the Billing Tab:
+If 1st February is RERATE, open the Billing Tab:
 
-If the Billing Tab opens, you can process the request on the effective date (1st February) because the 2nd February transaction is NO RERATE.
+If the Billing Tab opens, you can process the change for 2nd February, since it’s NO RERATE.
 
-If the Billing Tab does not open, forward the request to the Block-in Rating (BIR) Team.
+If the Billing Tab doesn’t open, send the request to BIR.
 
 
-If the 1st February transaction is NO RERATE, you can process the request directly without further checks.
+If 1st February is NO RERATE, go ahead and process the request without any extra checks.
 
 
 
@@ -86,22 +82,16 @@ Date Received: 2nd January 2024
 
 Action:
 
-1. The effective change must be applied on 2nd January 2024.
+1. Apply the change effective 2nd January 2024.
 
 
-2. Check the Term Activity for transactions between 2nd January and 25th January:
+2. Check the Term Activity for any transactions between 2nd January and 25th January:
 
-If all transactions are NO RERATE except 2nd January, open the Billing Tab:
+If all transactions are NO RERATE, except for 2nd January, open the Billing Tab:
 
-If the Billing Tab opens, you can process the request.
-
-
-If any transaction between 2nd January and 25th January is in RERATE:
-
-Forward the request to the Block-in Rating (BIR) Team.
+If the Billing Tab opens, process the request.
 
 
-
-
+If there’s any RERATE transaction between 2nd January and 25th January, forward the request to the BIR team.
 
 
