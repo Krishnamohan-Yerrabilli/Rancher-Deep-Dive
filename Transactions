@@ -1,4 +1,4 @@
-Scenario 1
+niScenario 1
 
 Latest Transaction: 2nd month, 3rd date, 2024
 
@@ -90,5 +90,111 @@ If all transactions are NO RERATE, except for 2nd January, open the Billing Tab:
 If the Billing Tab opens, process the request.
 
 If there’s any RERATE transaction between 2nd January and 25th January, forward the request to the BIR team.
+
+
+
+
+
+
+
+
+
+
+
+1. No Change, Only Acknowledging Form
+
+Use: Last rating transaction date.
+
+Example: If the last rating transaction date is 01/05/2024, use this date.
+
+
+
+---
+
+2. Coverage Was Reduced or Removed and Needs to Be Added Back
+
+Use:
+
+Coverage removal date if it’s within 15 days of receipt.
+
+Form receipt date if it’s beyond 15 days.
+
+
+Example:
+
+Coverage was removed on 12/20/2023, and the form was received on 01/02/2024. Since it’s within 15 days, use 12/20/2023.
+
+If the form was received on 01/10/2024 (beyond 15 days), use 01/10/2024.
+
+
+
+
+---
+
+3. Coverage Was Increased or Added, and Needs to Be Reduced or Deleted
+
+Use:
+
+Coverage addition date if it’s within 15 days of receipt.
+
+Form receipt date if it’s beyond 15 days.
+
+
+Example:
+
+Coverage was added on 12/15/2023, and the form was received on 12/28/2023. Since it’s within 15 days, use 12/15/2023.
+
+If the form was received on 01/10/2024 (beyond 15 days), use 01/10/2024.
+
+
+
+
+---
+
+4. Coverage Change Is Different or Midterm Change Requested
+
+Use:
+
+Signature date if it’s within 15 days of receipt.
+
+Form receipt date if it’s beyond 15 days.
+
+
+Example:
+
+Signature date is 12/01/2023, and the form was received on 12/10/2023. Since it’s within 15 days, use 12/01/2023.
+
+If the form was received on 12/20/2023 (beyond 15 days), use 12/20/2023.
+
+
+
+
+---
+
+5. Renewal Has Processed
+
+Use: Renewal date unless documentation shows coverage was wanted earlier.
+
+Example: Renewal date is 01/01/2024, so use 01/01/2024, unless there’s proof coverage was requested earlier.
+
+
+
+---
+
+6. No Date on the Form
+
+Use:
+
+Last transaction date if it’s within 15 days.
+
+Receipt date if it’s beyond 15 days.
+
+
+Example:
+
+Last transaction date is 11/25/2023, and the form was received on 12/05/2023. Since it’s within 15 days, use 11/25/2023.
+
+If the form was received on 12/20/2023 (beyond 15 days), use 12/20/2023.
+
 
 
